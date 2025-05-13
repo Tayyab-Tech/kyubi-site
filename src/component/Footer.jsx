@@ -7,8 +7,8 @@ import Link from 'next/link';
 function Footer() {
   return (
     <>
-      <div className='bg-black px-[60px] py-[20px] flex md:flex-row flex-col justify-between items-center gap-[30px]'>
-        <div>
+      <div className='bg-black text-white px-[60px] py-[20px] flex md:flex-row flex-col justify-between items-center gap-[30px]'>
+        <div className='text-white'>
           © 2024 Kyubi Studio
         </div>
         <div>
