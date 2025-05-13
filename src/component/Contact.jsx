@@ -26,27 +26,27 @@ function Contact() {
               />
             </div>
           </div>
-<div className='flex flex-col md:flex-row gap-15'>
+          <div className='flex flex-col md:flex-row gap-15'>
 
 
-          <div>
-            <label className="mb-1 text-sm">Description</label>
-            <textarea
-              rows="3"
-              placeholder="A couple of sentences will do"
-              className="bg-[#1a1a1a] text-white w-full p-3 outline-none"
-            />
-          </div>
+            <div>
+              <label className="mb-1 text-sm">Description</label>
+              <textarea
+                rows="3"
+                placeholder="A couple of sentences will do"
+                className="bg-[#1a1a1a] text-white w-full p-3 outline-none"
+              />
+            </div>
 
-          <div>
-            <label className="mb-2 text-sm">Budget</label>
-            <div className="flex flex-col gap-2">
-              <label><input type="radio" name="budget" /> $5,000 - $20,000</label>
-              <label><input type="radio" name="budget" /> $20,000 - $70,000</label>
-              <label><input type="radio" name="budget" /> More than $70,000</label>
+            <div>
+              <label className="mb-2 text-sm">Budget</label>
+              <div className="flex flex-col gap-2">
+                <label><input type="radio" name="budget" /> $5,000 - $20,000</label>
+                <label><input type="radio" name="budget" /> $20,000 - $70,000</label>
+                <label><input type="radio" name="budget" /> More than $70,000</label>
+              </div>
             </div>
           </div>
-</div>
           <button className="bg-white text-black py-3 px-6 mt-4 hover:bg-gray-200 font-bold w-fit">
             LET’S DO IT
           </button>

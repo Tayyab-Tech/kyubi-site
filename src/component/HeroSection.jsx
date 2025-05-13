@@ -4,7 +4,7 @@ import React from 'react'
 export default function HeroSection() {
   return (
     <>
-     <div className='bg-black text-white flex md:flex-row flex-col px-[60px] pb-[20px]'>
+     <div className='bg-black text-white flex md:flex-row flex-col px-[60px] py-[20px]'>
         <div className='md:w-[50%] w-[100%]'>
             <div className='md:w-[80%]  w-[100%] flex flex-col justify-center gap-[30px] md:h-[500px] '>
                 <h1 className='text-7xl font-extrbold'>Where art & business are one</h1>
