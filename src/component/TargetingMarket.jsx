@@ -4,10 +4,10 @@ import { Paintbrush, Smartphone, Globe, Gamepad2, Target } from 'lucide-react';
 export default function TargetingMarket() {
   return (
     <>
-     <div className='bg-black text-white flex md:flex-row flex-col px-[60px] py-[30px]'>
+     <div className='bg-black text-white flex md:flex-row flex-col md:px-[60px] md:py-[30px] px-[20px] py-[20px]'>
         <div className='md:w-[50%] w-[100%]'>
             <div className='md:w-[80%]  w-[100%] flex flex-col justify-center gap-[30px] md:h-[500px] '>
-                <h1 className='text-6xl font-extrabold leading-tight'>
+                <h1 className='md:text-6xl text-2xl font-extrabold leading-tight'>
                     Targeting your market <br className='hidden md:block' /> head on
                 </h1>
                 <div className='flex flex-wrap gap-6 mt-4'>
@@ -27,8 +27,8 @@ export default function TargetingMarket() {
                 <Link className='text-[#e06010]' href="/services">MORE ABOUT SERVICES</Link>
             </div>
         </div>
-        <div className='md:w-[50%]  w-[100%] h-[500px] md:pt-0 pt-10'>
-            <div className='relative w-full max-h-[500px] object-cover overflow-hidden'>
+        <div className='md:w-[50%]  w-[100%] md:h-[500px] h-[400px] md:pt-10 pt-0'>
+            <div className='relative w-full md:h-[500px] h-[400px] object-cover overflow-hidden'>
                 <img className='w-full h-full' src="/image3.png" alt="bg-img" />
             </div>
         </div>

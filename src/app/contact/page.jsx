@@ -2,10 +2,10 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="bg-black text-white flex md:flex-row flex-col px-[60px] py-[40px]">
+    <div className="bg-black text-white flex md:flex-row flex-col md:px-[60px] px-[20px] md:py-[40px] py-[10]">
       {/* Left: Form Fields */}
       <div className="md:w-1/2 w-full flex flex-col justify-center gap-6 md:pr-10">
-        <h1 className="text-6xl font-bold leading-tight">Contact</h1>
+        <h1 className="md:text-6xl text-2xl font-bold leading-tight">Contact</h1>
         <div className='md:w-[50%] w-[100%] pt-5'>
             I'm happy you ended up here. Let's  enter the era of innovation together!
         </div>
