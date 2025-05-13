@@ -14,7 +14,7 @@ function StudioHero() {
                 </div>
             </div>
         </div>
-        <div className='md:w-[50%]  w-[100%] h-[500px] md:pt-10 pt-0'>
+        <div className='md:w-[50%]  w-[100%] h-[500px]'>
             <div className='relative w-full max-h-[500px] object-cover overflow-hidden'>
                 <img className='w-full h-full' src="/image2.png" alt="bg-img" />
             </div>

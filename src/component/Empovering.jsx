@@ -47,7 +47,7 @@ export default function Empovering() {
                 </Link>
                 </div>
         </div>
-        <div className='md:w-[50%]  w-[100%] md:h-[500px] h-[400px] md:pt-10 pt-0'>
+        <div className='md:w-[50%]  w-[100%] md:h-[500px] h-[400px]'>
             <div className='relative w-full md:h-[500px] h-[400px] object-cover overflow-hidden'>
                 <img className='w-full h-full' src="/image4.png" alt="bg-img" />
             </div>

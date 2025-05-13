@@ -54,7 +54,7 @@ function Contact() {
       </div>
 
       {/* Right: Image and Design */}
-      <div className="md:w-1/2 w-full h-[500px] flex items-center justify-center md:pt-10 pt-0">
+      <div className="md:w-1/2 w-full h-[500px] flex items-center justify-center">
         <div className="relative w-full max-w-[450px]">
           <img src="/image5.png" alt="Naruto power pose" className="w-full h-auto" />
         </div>
