@@ -7,7 +7,7 @@ export default function OurMission() {
         <div className='md:w-[50%] w-[100%]'>
             <div className='md:w-[80%]  w-[100%] flex flex-col justify-center gap-[30px] md:h-[500px] '>
                 <h1 className='md:text-6xl text-2xl font-extrabold leading-tight'>
-                    Our<br className='hidden md:block' /> Mission
+                    Our <br className='hidden md:block' /> Mission
                 </h1>
                 <p className='py-4'>
                     To empower global business leaders to create innovative experiences for their customers, all while reaching their revenue goals.
