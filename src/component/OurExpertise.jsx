@@ -54,9 +54,9 @@ const expertiseData = [
 
 function OurExpertise() {
     return (
-        <div className="w-full bg-white text-black py-12 px-1 md:px-[60px] ">
+        <div className="w-full bg-white text-black md:px-[60px] md:py-[30px] px-[20px] py-[20px]">
             <div className="min-w-full">
-                <h2 className="text-4xl font-bold mb-4">Our <span className="text-black">expertise</span></h2>
+                <h2 className="md:text-4xl text-2xl font-bold mb-4">Our <span className="text-black">expertise</span></h2>
                 <p className="text-gray-700 mb-10 max-w-2xl">
                     We have extensive experience <span className="inline md:block">across a broad spectrum of</span> industries. Here are some of our <span className="inline md:block">favorites:</span>
                 </p>

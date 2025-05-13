@@ -2,10 +2,10 @@ import React from 'react';
 
 function Logo() {
   return (
-    <div className="bg-white px-4 py-6">
-      <div className="flex flex-wrap justify-center items-center gap-8">
+    <div className="flex justify-center md:px-[60px] md:py-[30px] px-[20px] py-[20px]">
+      <div className="flex flex-wrap justify-between items-center md:w-[80%] w-[90%]">
         {[1, 2, 3, 4, 5, 6].map((num) => (
-          <div key={num} className="max-w-[140px] w-full  object-contain">
+          <div key={num} className="w-[110px] object-contain">
             <img
               src={`/logo-${num}.png`}
               alt={`Logo ${num}`}

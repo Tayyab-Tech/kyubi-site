@@ -4,10 +4,10 @@ import Link from 'next/link'
 export default function Empovering() {
   return (
     <>
-     <div className='bg-white text-black flex md:flex-row flex-col px-[60px] py-[60px]'>
+     <div className='bg-white text-black flex md:flex-row flex-col md:px-[60px] md:py-[60px] px-[20px] py-[20px]'>
         <div className='md:w-[50%] w-[100%]'>
             <div className='md:w-[80%] w-full flex flex-col justify-center gap-[30px] md:h-[500px] text-black'>
-                <h1 className='text-6xl font-extrabold leading-tight'>
+                <h1 className='md:text-6xl text-2xl font-extrabold leading-tight'>
                     Empowering <br className='hidden md:block' /> partnerships
                 </h1>
 
@@ -47,8 +47,8 @@ export default function Empovering() {
                 </Link>
                 </div>
         </div>
-        <div className='md:w-[50%]  w-[100%] h-[500px] md:pt-0 pt-10'>
-            <div className='relative w-full max-h-[500px] object-cover overflow-hidden'>
+        <div className='md:w-[50%]  w-[100%] md:h-[500px] h-[400px]'>
+            <div className='relative w-full md:h-[500px] h-[400px] object-cover overflow-hidden'>
                 <img className='w-full h-full' src="/image4.png" alt="bg-img" />
             </div>
         </div>

@@ -3,10 +3,10 @@ import React from 'react'
 export default function ShippingShoots() {
   return (
     <>
-     <div className='bg-white text-black flex md:flex-row flex-col py-[60px] px-[60px]'>
+     <div className='bg-white text-black flex md:flex-row flex-col md:py-[60px] md:px-[60px] px-[20px] py-[10px]'>
         <div className='md:w-[50%] w-[100%]'>
             <div className="md:w-[80%] w-full flex flex-col justify-center gap-[30px] md:h-[500px]">
-                <h1 className="text-6xl font-extrabold">Shipping moonshots</h1>
+                <h1 className="md:text-6xl text-2xl font-extrabold">Shipping moonshots</h1>
 
                 {/* Projects Grid */}
                 <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
@@ -69,8 +69,8 @@ export default function ShippingShoots() {
                 </div>
                 </div>
         </div>
-        <div className='md:w-[50%]  w-[100%] h-[500px] md:pt-0 pt-10'>
-            <div className='relative w-full max-h-[500px] object-cover overflow-hidden'>
+        <div className='md:w-[50%]  w-[100%] md:h-[500px] h-[400px]'>
+            <div className='relative w-full md:h-[500px] h-[400px] object-cover overflow-hidden'>
                 <img className='w-full h-full' src="/image2.png" alt="bg-img" />
             </div>
         </div>
