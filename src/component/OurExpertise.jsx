@@ -54,6 +54,7 @@ const expertiseData = [
 
 function OurExpertise() {
     return (
+    <>
         <div className="w-full bg-white text-black md:px-[60px] md:py-[30px] px-[20px] py-[20px]">
             <div className="min-w-full">
                 <h2 className="md:text-4xl text-2xl font-bold mb-4">Our <span className="text-black">expertise</span></h2>
@@ -72,6 +73,7 @@ function OurExpertise() {
                 </div>
             </div>
         </div>
+    </>
     );
 }
 
