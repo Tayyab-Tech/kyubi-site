@@ -101,7 +101,7 @@ function Header() {
               Studio
             </Link>
           </li>
-          <li>
+          {/* <li>
 
 
             <Link
@@ -117,7 +117,7 @@ function Header() {
             >
               Work
             </Link>
-          </li>
+          </li> */}
           <li>
 
             <Link
@@ -182,7 +182,7 @@ function Header() {
           <ul className='flex flex-col gap-4 text-lg font-semibold'>
             {/* Primary Links */}
             <li><Link href="/" onClick={() => setMobileMenuOpen(false)} className={`${isActive('/') ? 'text-white' : 'text-[#888888]'}`}>Studio</Link></li>
-            <li><Link href="/about-us" onClick={() => setMobileMenuOpen(false)} className={`${isActive('/about-us') ? 'text-white' : 'text-[#888888]'}`}>Work</Link></li>
+            {/* <li><Link href="/about-us" onClick={() => setMobileMenuOpen(false)} className={`${isActive('/about-us') ? 'text-white' : 'text-[#888888]'}`}>Work</Link></li> */}
             <li><Link href="/portfolio" onClick={() => setMobileMenuOpen(false)} className={`${isActive('/portfolio') ? 'text-white' : 'text-[#888888]'}`}>Services</Link></li>
             <li><Link href="/our-team" onClick={() => setMobileMenuOpen(false)} className={`${isActive('/our-team') ? 'text-white' : 'text-[#888888]'}`}>Clients</Link></li>
             <li><Link href="/contact" onClick={() => setMobileMenuOpen(false)} className={`${isActive('/contact') ? 'text-white' : 'text-[#888888]'}`}>Contact</Link></li>
